@@ -2,7 +2,7 @@
 cask "ctxloom-full" do
   desc "Context Loom (full build with tree-sitter AST code compression)"
   homepage "https://github.com/ctxloom/ctxloom"
-  version "0.6.1"
+  version "0.6.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "ctxloom-full" do
 
   on_macos do
     on_intel do
-      url "https://github.com/ctxloom/ctxloom/releases/download/v0.6.1/ctxloom_0.6.1_darwin_amd64_full.tar.gz"
-      sha256 "12525ca5ad16b41026d19980d694dfe922f12ec0cc9a495c3f7c9bfb9b7aa2b5"
+      url "https://github.com/ctxloom/ctxloom/releases/download/v0.6.2/ctxloom_0.6.2_darwin_amd64_full.tar.gz"
+      sha256 "580523f334b8ca0f268f7100277303bc9bda7db44ea7c64c91a6164aac8212ce"
     end
     on_arm do
-      url "https://github.com/ctxloom/ctxloom/releases/download/v0.6.1/ctxloom_0.6.1_darwin_arm64_full.tar.gz"
-      sha256 "996468fb708a5b6534ef638c2343ab1c9741fd85136016bf73e05540e3e567bd"
+      url "https://github.com/ctxloom/ctxloom/releases/download/v0.6.2/ctxloom_0.6.2_darwin_arm64_full.tar.gz"
+      sha256 "35b702f2d2a32e1b16841f39d9f28c700f235c0e39e9cafe8328f5a448c4a939"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ctxloom/ctxloom/releases/download/v0.6.1/ctxloom_0.6.1_linux_amd64_full.tar.gz"
-      sha256 "20ecd46e748056f5d2c129b0f67758f7e81bd27f3df5e655d9d6087d1985c3da"
+      url "https://github.com/ctxloom/ctxloom/releases/download/v0.6.2/ctxloom_0.6.2_linux_amd64_full.tar.gz"
+      sha256 "737d27312b82b92f45bede3aa7fada3316e1a2aefb894e2c067e4fee87e0f160"
     end
     on_arm do
-      url "https://github.com/ctxloom/ctxloom/releases/download/v0.6.1/ctxloom_0.6.1_linux_arm64_full.tar.gz"
-      sha256 "2957ac0808dcb42ada0d6268b26856a4ea1219a55f15dc34f4d4ec69f0c441c6"
+      url "https://github.com/ctxloom/ctxloom/releases/download/v0.6.2/ctxloom_0.6.2_linux_arm64_full.tar.gz"
+      sha256 "d5e099066a9891206852ebfc0373aa0556a4d0fd66529309fd331816486dc6a9"
     end
   end
 
