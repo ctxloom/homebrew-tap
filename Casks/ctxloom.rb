@@ -2,7 +2,7 @@
 cask "ctxloom" do
   desc "Context Loom - Weave context for AI coding agents"
   homepage "https://github.com/ctxloom/ctxloom"
-  version "0.6.2"
+  version "0.6.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "ctxloom" do
 
   on_macos do
     on_intel do
-      url "https://github.com/ctxloom/ctxloom/releases/download/v0.6.2/ctxloom_0.6.2_darwin_amd64.tar.gz"
-      sha256 "3133c265ae68d80bed1c49ff76beff6d35e1ea0d8d2a0ce0fc7850ec1389f052"
+      url "https://github.com/ctxloom/ctxloom/releases/download/v0.6.4/ctxloom_0.6.4_darwin_amd64.tar.gz"
+      sha256 "4a3c22b33bb682bea8287073b6bd7103ad726df4ba4dfe21fe0e988fb4728741"
     end
     on_arm do
-      url "https://github.com/ctxloom/ctxloom/releases/download/v0.6.2/ctxloom_0.6.2_darwin_arm64.tar.gz"
-      sha256 "2529e560d8eba8409cb879f9f03987a0d02280b9e036a633a8cce385d509ef0a"
+      url "https://github.com/ctxloom/ctxloom/releases/download/v0.6.4/ctxloom_0.6.4_darwin_arm64.tar.gz"
+      sha256 "b421b9aa87b94ad84389c6c42425f49ccb9e84e1491c6208198ce5d051f451a8"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ctxloom/ctxloom/releases/download/v0.6.2/ctxloom_0.6.2_linux_amd64.tar.gz"
-      sha256 "9f0b28530def63acc909bcce5cd4f44bc52bb10777a5b476c6d5e67daa5ed044"
+      url "https://github.com/ctxloom/ctxloom/releases/download/v0.6.4/ctxloom_0.6.4_linux_amd64.tar.gz"
+      sha256 "89a356c697c9458929ecf851bc85da3a9548d19aa978837b54c0b0b27100810f"
     end
     on_arm do
-      url "https://github.com/ctxloom/ctxloom/releases/download/v0.6.2/ctxloom_0.6.2_linux_arm64.tar.gz"
-      sha256 "bbb053cc07fe38baea6bac7962088c4970f5f0aa890d47cbfe871dd76a2c1e57"
+      url "https://github.com/ctxloom/ctxloom/releases/download/v0.6.4/ctxloom_0.6.4_linux_arm64.tar.gz"
+      sha256 "55540e5698ecd7a9f6029e375902edc4510cfb2e5952fbe5dc8f34ef904fc504"
     end
   end
 
